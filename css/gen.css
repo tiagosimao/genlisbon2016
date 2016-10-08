@@ -1,0 +1,178 @@
+body {
+}
+
+.column {
+    text-align: center;
+}
+
+.brand {
+    padding-top: 50px;
+}
+
+.ssearch {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    color: #787878;
+    display: inline-block;
+    text-align: center;
+    width: 640px;
+}
+
+.ssearch h2 {
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.ssearch p {
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.ssearch input {
+    margin-top: 30px;
+    max-width: 600px;
+    min-width: 320px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #AAAAAA;
+    font-size: 16px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.ssearch button {
+    margin-top: 60px;
+    max-width: 600px;
+    min-width: 320px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 0px;
+    border-style: hidden;
+    background-color: #787878;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ssearch input::placeholder {
+    font-weight: 500;
+}
+
+.list-a {
+    text-align: center;
+}
+
+.quote {
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    
+    min-height: 150px;
+    
+    margin: 0 auto;
+    
+}
+
+.statement {
+    
+}
+
+.statement .title {
+    font-family: 'Droid Serif', serif;
+    margin-top: 3px;
+}
+
+div.fact {
+    background-color: #EFEFEF;
+}
+
+div.quote-statement:before {
+   content:url(../img/icon_talk.png);
+}
+
+div.quote-fact:before {
+    content:url(../img/icon_target.png);
+}
+
+div.quote-statement {
+   padding-left: 150px;
+}
+
+div.quote-fact {
+   padding-left: 150px;
+}
+
+span.entity{
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+span.source{
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+span.source-label{
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 10px;
+}
+
+span.date {
+    padding-left: 10px;
+}
+
+p.title {
+    padding-left: 20px;
+}
+
+.bias {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    height: 100px;
+    width: 20px;
+}
+
+#summary {
+    height: 20px;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    
+    margin: 0 auto;
+}
+
+.yesno {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 20px;
+}
+
+#list-a {
+    margin-top: 50px;
+}
+
+#headerino {
+    margin-top: -50px;
+    height: 45px;
+    position:fixed;
+    width: 100%;
+    background-color: #efefef;
+    
+}
